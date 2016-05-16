@@ -1,0 +1,152 @@
+/*!
+ * CSS Media Queries Boilerplate by @brandonhimpfen
+ * all.css
+ * Copyright Brandon Himpfen
+ * Licensed under http://www.gnu.org/licenses/gpl-2.0.html
+ * Website: himpfen.com
+ */
+
+/*
+	General
+*/
+@media all {
+    /* all devices */
+    .body {
+        border: 2px double #FFFFFF;
+        box-shadow:inset 0px 1px 0px 0px #fff
+                    , inset 0px -1px 2px 0px #000
+                    , 0 5px 8px rgba(0, 0, 0, .8)
+                    , 0 0px 0px 1px rgba(0, 0, 0, .3);
+        background-color: rgba(255, 255, 255, 0.4);
+        /*-webkit-backdrop-filter: blur(20px);*/
+        /*backdrop-filter: blur(20px);*/
+
+    }
+
+    .body p {
+        color: #333;
+        font-size: 1em;
+        font-weight: 700;
+        padding: 7px 5px 5px 5px;
+    }
+
+    .about {
+        padding-top: 50px;
+
+    }
+
+    .head {
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen {
+    /* computer screens */
+}
+
+@media print {
+    /* printers */
+}
+
+@media aural {
+    /* speech and sound synthesizers */
+}
+
+@media braille {
+    /* braille tactile feedback devices */
+}
+
+@media embossed {
+    /* paged braille printers */
+}
+
+@media handheld {
+    /* small or handheld devices */
+}
+
+@media projection {
+    /* projected presentations */
+}
+
+@media tty {
+    /* teletypes and terminals */
+}
+
+@media tv {
+    /* television-type devices */
+}
+
+/*
+	iPad
+*/
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    /* all iPad models */
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    /* all iPad models, landscape */
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    /* all iPad models, portrait */
+}
+
+/*
+	Apple iPhone 5
+*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+    /* iPhone 5 */
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: landscape) {
+    /* iPhone 5, landscape */
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: portrait) {
+    /* iPhone 5, portrait */
+}
+
+/*
+	iPhone 2 - 4 and iPod Touch
+*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    /* iPhone 2 - 4 and iPod Touch */
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation: landscape) {
+    /* iPhone 2 - 4 and iPod Touch, landscape */
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation: portrait) {
+    /* iPhone 2 - 4 and iPod Touch, portrait */
+}
+

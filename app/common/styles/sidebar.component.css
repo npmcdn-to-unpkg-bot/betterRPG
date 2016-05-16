@@ -1,0 +1,171 @@
+/*!
+ * CSS Media Queries Boilerplate by @brandonhimpfen
+ * all.css
+ * Copyright Brandon Himpfen
+ * Licensed under http://www.gnu.org/licenses/gpl-2.0.html
+ * Website: himpfen.com
+ */
+
+/*
+	General
+*/
+
+@media all {
+    /* all devices */
+}
+@media screen {
+    /* computer screens */
+    /*
+ * Sidebar
+ */
+
+    /* Hide for mobile, show later */
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar {
+        position: fixed;
+        width: 60px;
+        opacity: .9;
+        top: 52px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        /*background-color: #f5f5f5;*/
+        /*border-right: 1px solid #eee;*/
+    }
+
+    /* Sidebar navigation */
+    .nav-sidebar {
+        margin-right: -20px; /* 20px padding + 1px border */
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
+    .nav-sidebar > li > a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    i {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        vertical-align: top;
+
+    }
+    .nav-sidebar > .active > a,
+    .nav-sidebar > .active > a:hover,
+    .nav-sidebar > .active > a:focus {
+        color: #fff;
+        background-color: #428bca;
+    }
+
+    a {
+        vertical-align: top;
+    }
+
+   .fa-user {
+       padding-left: 2px;
+   }
+
+   .fa-tint {
+       padding-left: 4px;
+   }
+
+}
+@media print {
+    /* printers */
+}
+@media aural {
+    /* speech and sound synthesizers */
+}
+@media braille {
+    /* braille tactile feedback devices */
+}
+@media embossed {
+    /* paged braille printers */
+}
+@media handheld {
+    /* small or handheld devices */
+}
+@media projection {
+    /* projected presentations */
+}
+@media tty {
+    /* teletypes and terminals */
+}
+@media tv {
+    /* television-type devices */
+}
+
+/*
+	iPad
+*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    /* all iPad models */
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* all iPad models, landscape */
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* all iPad models, portrait */
+}
+
+/*
+	Apple iPhone 5
+*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    /* iPhone 5 */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    /* iPhone 5, landscape */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    /* iPhone 5, portrait */
+}
+
+/*
+	iPhone 2 - 4 and iPod Touch
+*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* iPhone 2 - 4 and iPod Touch */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+    /* iPhone 2 - 4 and iPod Touch, landscape */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+    /* iPhone 2 - 4 and iPod Touch, portrait */
+}
+

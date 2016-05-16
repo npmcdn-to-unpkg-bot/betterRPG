@@ -1,0 +1,9 @@
+<div>
+  <h2 class="statsHeader">Stats!</h2>
+  <ul class="stats-list">
+    <li *ngFor="let stat of stats">
+      <div [ngClass]="storeStats(stat.name, stat.score)"></div>
+      {{stat.name}} {{stat.score}} <button class="stat-add-button" (click)="addStat(stat.name)">Add {{stat.name}}</button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,128 @@
+/*!
+ * CSS Media Queries Boilerplate by @brandonhimpfen
+ * all.css
+ * Copyright Brandon Himpfen
+ * Licensed under http://www.gnu.org/licenses/gpl-2.0.html
+ * Website: himpfen.com
+ */
+
+/*
+	General
+*/
+
+@media all {
+    /* all devices */
+}
+@media screen {
+    /* computer screens */
+
+    @media (min-device-width : 1200px) {
+        h1 {
+            padding-top: 100px;
+            font-weight: 700;
+            font-size: 10em;
+            color: #FFFFFF;
+        }
+    }
+
+    div a {
+        color: #FFFFFF;
+        font-size: 1.7em;
+
+    }
+
+}
+@media print {
+    /* printers */
+}
+@media aural {
+    /* speech and sound synthesizers */
+}
+@media braille {
+    /* braille tactile feedback devices */
+}
+@media embossed {
+    /* paged braille printers */
+}
+@media handheld {
+    /* small or handheld devices */
+}
+@media projection {
+    /* projected presentations */
+}
+@media tty {
+    /* teletypes and terminals */
+}
+@media tv {
+    /* television-type devices */
+}
+
+/*
+	iPad
+*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    /* all iPad models */
+
+
+
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* all iPad models, landscape */
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* all iPad models, portrait */
+}
+
+/*
+	Apple iPhone 5
+*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    /* iPhone 5 */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    /* iPhone 5, landscape */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    /* iPhone 5, portrait */
+}
+
+/*
+	iPhone 2 - 4 and iPod Touch
+*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* iPhone 2 - 4 and iPod Touch */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+    /* iPhone 2 - 4 and iPod Touch, landscape */
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+    /* iPhone 2 - 4 and iPod Touch, portrait */
+}
+

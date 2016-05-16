@@ -1,0 +1,10 @@
+<div class="users">
+    <h1 class="usersHeader">Current User</h1>
+    <p>{{user.userId}} {{user.userName}}</p>
+    <h1 class="usersHeader">User List</h1>
+    <ul class="users">
+        <li *ngFor="let user of users">
+            {{user.userId}} {{user.userName}}
+        </li>
+    </ul>
+</div>

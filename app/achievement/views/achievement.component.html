@@ -1,0 +1,10 @@
+<div class="achievement">
+  <h1>Achievements</h1>
+  <ul class="achievment-list">
+    <li *ngFor="let achievement of achievements">
+        <i [ngClass]="addIcons(achievement.requiredStat)"
+           aria-hidden="true"></i>
+        {{achievement.title}}, {{achievement.requiredStat}}
+    </li>
+  </ul>
+</div>
